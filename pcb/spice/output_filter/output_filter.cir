@@ -1,0 +1,8 @@
+* simulation of output_filter
+.control
+  set filetype=ascii
+  dc v2 0 5 0.1
+
+write
+.endc
+.include output_filter.net

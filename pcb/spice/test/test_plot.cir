@@ -1,0 +1,13 @@
+plot the result
+
+.control
+
+load rawspice.raw
+
+
+*User defined vector and plot commands: 
+
+plot out xlog
+
+.endc 
+.end 

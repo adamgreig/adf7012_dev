@@ -1,0 +1,45 @@
+Warning: singular matrix:  check nodes 3 and 3
+
+Warning: singular matrix:  check nodes 3 and 3
+
+Note: starting dynamic Gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful Gmin step
+Trying gmin =   1.0000E-04 Note: One successful Gmin step
+Trying gmin =   1.0000E-05 Note: One successful Gmin step
+Trying gmin =   1.0000E-06 Note: One successful Gmin step
+Trying gmin =   1.0000E-07 Note: One successful Gmin step
+Trying gmin =   1.0000E-08 Note: One successful Gmin step
+Trying gmin =   1.0000E-09 Note: One successful Gmin step
+Trying gmin =   1.0000E-10 Note: One successful Gmin step
+Trying gmin =   1.0000E-11 Note: One successful Gmin step
+Trying gmin =   1.0000E-12 Note: One successful Gmin step
+Trying gmin =   1.0000E-12 Note: One successful Gmin step
+Warning: singular matrix:  check nodes 3 and 3
+
+Warning: Dynamic Gmin stepping failed
+Note: starting source stepping
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes 3 and 3
+
+
+Trying gmin =   1.0000E-02 Note: One successful Gmin step
+Trying gmin =   1.0000E-03 Note: One successful Gmin step
+Trying gmin =   1.0000E-04 Note: One successful Gmin step
+Trying gmin =   1.0000E-05 Note: One successful Gmin step
+Trying gmin =   1.0000E-06 Note: One successful Gmin step
+Trying gmin =   1.0000E-07 Note: One successful Gmin step
+Trying gmin =   1.0000E-08 Note: One successful Gmin step
+Trying gmin =   1.0000E-09 Note: One successful Gmin step
+Trying gmin =   1.0000E-10 Note: One successful Gmin step
+Trying gmin =   1.0000E-11 Note: One successful Gmin step
+Trying gmin =   1.0000E-12 Note: One successful Gmin step
+Note: One successful source step
+Supplies reduced to   0.1000% Warning: singular matrix:  check nodes 3 and 3
+
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes 3 and 3
+
+Warning: source stepping failed
+doAnalyses: iteration limit reached
+
+dc simulation(s) aborted
+Error(parse.c--checkvalid): V(1): no such vector.
+Note: No ".plot", ".print", or ".fourier" lines; no simulations run

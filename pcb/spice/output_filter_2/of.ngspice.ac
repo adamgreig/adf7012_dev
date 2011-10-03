@@ -1,0 +1,80 @@
+
+Circuit: **************************************************************
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+AC operating point failed -
+
+Last Node Voltages
+------------------
+
+Node                                   Last Voltage        Previous Iter
+----                                   ------------        -------------
+1                                                 0                    0
+2                                                 0                    0
+3                                                 0                    0
+out                                               0                    0
+in                                                0                    0
+l2#branch                                         0                    0
+l1#branch                                         0                    0
+v1#branch                                         0                    0
+
+CPU time since last call: 0.000 seconds.
+
+Total CPU time: 0.000 seconds.
+
+Total DRAM available = 7994.191406 MB.
+DRAM currently available = 445.199219 MB.
+Total ngspice program size = 19.280273 MB.
+Resident set size = 813.000 kB.
+Shared ngspice pages = 610.000 kB.
+Text (code) pages = 1.947266 MB.
+Stack = 0 bytes.
+Library pages = 5.963867 MB.
+
+Warning: v1: has no value, DC 0 assumed
+Warning: singular matrix:  check nodes 3 and 1
+
+Note: starting dynamic Gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful Gmin step
+Trying gmin =   1.0000E-04 Note: One successful Gmin step
+Trying gmin =   1.0000E-05 Note: One successful Gmin step
+Trying gmin =   1.0000E-06 Note: One successful Gmin step
+Trying gmin =   1.0000E-07 Note: One successful Gmin step
+Trying gmin =   1.0000E-08 Note: One successful Gmin step
+Trying gmin =   1.0000E-09 Note: One successful Gmin step
+Trying gmin =   1.0000E-10 Note: One successful Gmin step
+Trying gmin =   1.0000E-11 Note: One successful Gmin step
+Trying gmin =   1.0000E-12 Note: One successful Gmin step
+Trying gmin =   1.0000E-12 Note: One successful Gmin step
+Warning: singular matrix:  check nodes 3 and 1
+
+Warning: Dynamic Gmin stepping failed
+Note: starting source stepping
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes 3 and 1
+
+
+Trying gmin =   1.0000E-02 Note: One successful Gmin step
+Trying gmin =   1.0000E-03 Note: One successful Gmin step
+Trying gmin =   1.0000E-04 Note: One successful Gmin step
+Trying gmin =   1.0000E-05 Note: One successful Gmin step
+Trying gmin =   1.0000E-06 Note: One successful Gmin step
+Trying gmin =   1.0000E-07 Note: One successful Gmin step
+Trying gmin =   1.0000E-08 Note: One successful Gmin step
+Trying gmin =   1.0000E-09 Note: One successful Gmin step
+Trying gmin =   1.0000E-10 Note: One successful Gmin step
+Trying gmin =   1.0000E-11 Note: One successful Gmin step
+Trying gmin =   1.0000E-12 Note: One successful Gmin step
+Note: One successful source step
+Supplies reduced to   0.1000% Warning: singular matrix:  check nodes 3 and 1
+
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes 3 and 1
+
+Warning: source stepping failed
+doAnalyses: iteration limit reached
+
+run simulation(s) aborted
+Error: .print: no ac analysis found.
+
+

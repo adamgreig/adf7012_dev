@@ -1,0 +1,12 @@
+* Spice netlister for gnetlist
+V2 in 0 dc 0 ac 1
+V1 4 0 DC 3.3V
+L1 in 4 27n
+C1 1 2 470p
+C4 0 out 3.3p
+C3 0 3 8.2p
+C2 0 2 3.3p
+L4 3 out 22n
+L3 2 3 22n
+L2 in 1 6.2n
+.END

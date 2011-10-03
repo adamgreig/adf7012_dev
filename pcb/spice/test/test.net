@@ -1,0 +1,5 @@
+* Spice netlister for gnetlist
+V1 1 0 dc 0 ac 1
+R1 1 out 1k
+C1 0 out 100n
+.END

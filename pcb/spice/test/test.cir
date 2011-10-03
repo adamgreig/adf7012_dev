@@ -1,0 +1,8 @@
+* simulation of test
+.control
+  set filetype=ascii
+  ac dec 10 10 100000 
+
+write
+.endc
+.include test.net

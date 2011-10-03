@@ -1,0 +1,560 @@
+# EESchema Netlist Version 1.1 created  Sat 28 May 2011 14:28:49 BST
+(
+ ( /4DD6AC54 SMA_JACK_END  P2 CONN_5 {Lib=CONN_5}
+  (    1 N-000004 )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+ )
+ ( /4DD6AB28 SM0603  C24 10n {Lib=C}
+  (    1 N-000014 )
+  (    2 GND )
+ )
+ ( /4DD6AB27 SM0603  C23 10n {Lib=C}
+  (    1 N-000034 )
+  (    2 GND )
+ )
+ ( /4DD6AB25 SM0603  C22 10n {Lib=C}
+  (    1 N-000015 )
+  (    2 GND )
+ )
+ ( /4DD6AB1E SM0603  C13 10n {Lib=C}
+  (    1 N-000009 )
+  (    2 GND )
+ )
+ ( /4DD6AA59 SM0603  C20 10u {Lib=C}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4DD69A3D SIL-10  P1 CONN_10 {Lib=CONN_10}
+  (    1 GND )
+  (    2 VDD )
+  (    3 N-000012 )
+  (    4 N-000011 )
+  (    5 N-000013 )
+  (    6 N-000010 )
+  (    7 N-000014 )
+  (    8 N-000034 )
+  (    9 N-000015 )
+  (   10 N-000009 )
+ )
+ ( /4DD6996A SM0603  C17 3p3 {Lib=C}
+  (    1 GND )
+  (    2 N-000004 )
+ )
+ ( /4DD69963 SM0603  L5 22n {Lib=INDUCTOR}
+  (    1 N-000004 )
+  (    2 N-000003 )
+ )
+ ( /4DD6995F SM0603  C16 8p2 {Lib=C}
+  (    1 GND )
+  (    2 N-000003 )
+ )
+ ( /4DD6995B SM0603  L4 22n {Lib=INDUCTOR}
+  (    1 N-000003 )
+  (    2 N-000002 )
+ )
+ ( /4DD69954 SM0603  C15 3p3 {Lib=C}
+  (    1 GND )
+  (    2 N-000002 )
+ )
+ ( /4DD6994F SM0603  C14 470p {Lib=C}
+  (    1 N-000002 )
+  (    2 N-000001 )
+ )
+ ( /4DD69927 SM0402  L2 6.2n {Lib=INDUCTOR}
+  (    1 N-000001 )
+  (    2 N-000008 )
+ )
+ ( /4DD698E1 SM0603  L1 27n {Lib=INDUCTOR}
+  (    1 VDD )
+  (    2 N-000008 )
+ )
+ ( /4DD698AE SM0603  C12 10u {Lib=C}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4DD698A0 SM0603  C11 10n {Lib=C}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4DD69888 SM0603  C18 5p1 {Lib=C}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4DD697FB SM0603  R7 3k6 {Lib=R}
+  (    1 N-000023 )
+  (    2 GND )
+ )
+ ( /4DD697D7 SM0603  C10 22n {Lib=C}
+  (    1 N-000006 )
+  (    2 N-000029 )
+ )
+ ( /4DD697BE SM0603  C9 470n {Lib=C}
+  (    1 GND )
+  (    2 N-000029 )
+ )
+ ( /4DD69470 SM0603  C3 270p {Lib=C}
+  (    1 N-000028 )
+  (    2 GND )
+ )
+ ( /4DD6946B SM0603  R2 3k3 {Lib=R}
+  (    1 N-000026 )
+  (    2 N-000028 )
+ )
+ ( /4DD69453 SM0603  R1 910 {Lib=R}
+  (    1 GND )
+  (    2 N-000027 )
+ )
+ ( /4DD69450 SM0603  C2 12n {Lib=C}
+  (    1 N-000026 )
+  (    2 N-000027 )
+ )
+ ( /4DD6944A SM0603  C1 680p {Lib=C}
+  (    1 N-000026 )
+  (    2 GND )
+ )
+ ( /4DD693DF SM0603  C6 2u2 {Lib=C}
+  (    1 N-000025 )
+  (    2 GND )
+ )
+ ( /4DD693DE SM0603  C5 5p1 {Lib=C}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4DD693BD SM0603  C4 100n {Lib=C}
+  (    1 VDD )
+  (    2 GND )
+ )
+ ( /4DD6938B SM0603  C19 10n {Lib=C}
+  (    1 N-000032 )
+  (    2 GND )
+ )
+ ( /4DD69365 SM0603  C21 10n {Lib=C}
+  (    1 N-000031 )
+  (    2 GND )
+ )
+ ( /4DD692C9 SM0603  R3 1k {Lib=R}
+  (    1 N-000012 )
+  (    2 N-000032 )
+ )
+ ( /4DD692C7 SM0603  R13 1k {Lib=R}
+  (    1 N-000011 )
+  (    2 N-000031 )
+ )
+ ( /4DD692C2 SM0603  R4 1k {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000030 )
+ )
+ ( /4DD691F4 SM0603  L3 22n {Lib=INDUCTOR}
+  (    1 N-000021 )
+  (    2 N-000022 )
+ )
+ ( /4DD690FF SM0603  C8 18p {Lib=C}
+  (    1 N-000016 )
+  (    2 GND )
+ )
+ ( /4DD690FD SM0603  C7 18p {Lib=C}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /4DD690E5 SM0603  R8 1k {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000020 )
+ )
+ ( /4DD690D2 SM0603  R6 1k {Lib=R}
+  (    1 N-000010 )
+  (    2 N-000033 )
+ )
+ ( /4DD690C5 SM0603  R11 1k {Lib=R}
+  (    1 N-000015 )
+  (    2 N-000019 )
+ )
+ ( /4DD690B9 SM0603  R10 1k {Lib=R}
+  (    1 N-000034 )
+  (    2 N-000018 )
+ )
+ ( /4DD690B3 SM0603  R9 1k {Lib=R}
+  (    1 N-000014 )
+  (    2 N-000024 )
+ )
+ ( /4DD6907E HC49-4H  Y1 4.9152MHz {Lib=CRYSTAL}
+  (    1 N-000017 )
+  (    2 N-000016 )
+ )
+ ( /4DD69016 TSSOP24  IC1 ADF7012 {Lib=ADF7012}
+  (    1 VDD )
+  (    2 N-000025 )
+  (    3 N-000026 )
+  (    4 N-000032 )
+  (    5 N-000031 )
+  (    6 N-000030 )
+  (    7 GND )
+  (    8 N-000016 )
+  (    9 N-000017 )
+  (   10 N-000033 )
+  (   11 N-000024 )
+  (   12 N-000018 )
+  (   13 N-000019 )
+  (   14 N-000020 )
+  (   15 N-000021 )
+  (   16 N-000022 )
+  (   17 N-000006 )
+  (   18 N-000028 )
+  (   19 GND )
+  (   20 N-000008 )
+  (   21 VDD )
+  (   22 GND )
+  (   23 N-000023 )
+  (   24 N-000029 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ L2 1
+ C14 2
+Net 2 "" ""
+ C14 1
+ C15 2
+ L4 2
+Net 3 "" ""
+ L4 1
+ C16 2
+ L5 2
+Net 4 "" ""
+ P2 1
+ L5 1
+ C17 2
+Net 5 "GND" "GND"
+ IC1 22
+ IC1 7
+ C4 2
+ C7 2
+ C8 2
+ IC1 19
+ C21 2
+ C19 2
+ C5 2
+ C6 2
+ C1 2
+ R1 1
+ C3 2
+ C9 1
+ C11 2
+ C12 2
+ C20 2
+ C13 2
+ C22 2
+ C23 2
+ C24 2
+ C15 1
+ C16 1
+ C17 1
+ R7 2
+ C18 2
+ P2 2
+ P2 3
+ P2 4
+ P2 5
+ P1 1
+Net 6 "" ""
+ C10 1
+ IC1 17
+Net 7 "VDD" "VDD"
+ C12 1
+ C11 1
+ C18 1
+ P1 2
+ IC1 1
+ IC1 21
+ C4 1
+ C5 1
+ C20 1
+ L1 1
+Net 8 "" ""
+ L2 2
+ IC1 20
+ L1 2
+Net 9 "" ""
+ R8 1
+ P1 10
+ C13 1
+Net 10 "" ""
+ P1 6
+ R6 1
+Net 11 "" ""
+ P1 4
+ R13 1
+Net 12 "" ""
+ P1 3
+ R3 1
+Net 13 "" ""
+ R4 1
+ P1 5
+Net 14 "" ""
+ C24 1
+ P1 7
+ R9 1
+Net 15 "" ""
+ R11 1
+ P1 9
+ C22 1
+Net 16 "" ""
+ C8 1
+ Y1 2
+ IC1 8
+Net 17 "" ""
+ C7 1
+ Y1 1
+ IC1 9
+Net 18 "" ""
+ IC1 12
+ R10 2
+Net 19 "" ""
+ R11 2
+ IC1 13
+Net 20 "" ""
+ R8 2
+ IC1 14
+Net 21 "" ""
+ IC1 15
+ L3 1
+Net 22 "" ""
+ IC1 16
+ L3 2
+Net 23 "" ""
+ IC1 23
+ R7 1
+Net 24 "" ""
+ R9 2
+ IC1 11
+Net 25 "" ""
+ IC1 2
+ C6 1
+Net 26 "" ""
+ R2 1
+ C2 1
+ C1 1
+ IC1 3
+Net 27 "" ""
+ C2 2
+ R1 2
+Net 28 "" ""
+ C3 1
+ IC1 18
+ R2 2
+Net 29 "" ""
+ C9 2
+ IC1 24
+ C10 2
+Net 30 "" ""
+ R4 2
+ IC1 6
+Net 31 "" ""
+ C21 1
+ R13 2
+ IC1 5
+Net 32 "" ""
+ C19 1
+ R3 2
+ IC1 4
+Net 33 "" ""
+ IC1 10
+ R6 2
+Net 34 "" ""
+ P1 8
+ C23 1
+ R10 1
+}
+#End
