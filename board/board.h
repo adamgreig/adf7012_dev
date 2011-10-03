@@ -35,7 +35,7 @@
  * Board identifier.
  */
 #define BOARD_STM32
-#define BOARD_NAME              "Generic STM32 board"
+#define BOARD_NAME              "STM32 + ADF7012 Radio Test Board"
 
 /*
  * Board frequencies.
@@ -51,8 +51,12 @@
 /*
  * IO pins assignments.
  */
-#define LED1    0
-#define LED2    1
+#define PA_LED      8
+#define PB_TX_DATA  0
+#define PA_CLK      5
+#define PA_DATA     7
+#define PA_LE       6
+#define PA_CE       4
 
 /*
  * I/O ports initial setup, this configuration is established soon after reset
@@ -81,20 +85,24 @@
 /*
  * Port A setup.
  * Everything input with pull-up except:
- * PA9 - USART1_TX
- * PA10 - USART1_RX
+ * PA4      PA_CE
+ * PA5      PA_CLK
+ * PA6      PA_LE
+ * PA7      PA_DATA
+ * PA8      PA_LED
+ * PA9      USART1_TX
+ * PA10     USART1_RX
  */
-#define VAL_GPIOACRL            0x88888888
-#define VAL_GPIOACRH            0x888884B8
+#define VAL_GPIOACRL            0x33338888
+#define VAL_GPIOACRH            0x888884B2
 #define VAL_GPIOAODR            0xFFFFFFFF
 
 /*
  * Port B setup.
  * Everything input with pull-up except:
  * PB0 - LED1
- * PB1 - LED2
  */
-#define VAL_GPIOBCRL            0x88888822      /*  PB7...PB0 */
+#define VAL_GPIOBCRL            0x88888883      /*  PB7...PB0 */
 #define VAL_GPIOBCRH            0x88888888      /* PB15...PB8 */
 #define VAL_GPIOBODR            0xFFFFFFFF
 

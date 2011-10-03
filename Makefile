@@ -56,7 +56,7 @@ PROJECT = ch
 LDSCRIPT= ch.ld
 
 # Imported source files
-CHIBIOS = ./ChibiOS_2.2.3
+CHIBIOS = ./ChibiOS_2.2.5
 include board/board.mk
 include $(CHIBIOS)/os/hal/platforms/STM32/platform.mk
 include $(CHIBIOS)/os/hal/hal.mk
